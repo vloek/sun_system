@@ -3,6 +3,6 @@ class WelcomeController < ApplicationController
   end
 
   def snow
-    render layout: nil
+    # render layout: nil
   end
 end

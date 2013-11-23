@@ -11,7 +11,5 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require three.min
-//= require RollControls
 //= require jquery_ujs
 

@@ -66,9 +66,9 @@
     directionalLight.position.set(0, 80, 9).normalize();
     scene.add(directionalLight);
 
-    $(document).on('mousemove',  onDocumentMouseMove,  false);
-    $(document).on('touchstart', onDocumentTouchStart, false);
-    $(document).on('touchMove',  onDocumentTouchMove,  false);
+    $(document).on('mousemove',  onDocumentMouseMove);
+    $(document).on('touchstart', onDocumentTouchStart);
+    $(document).on('touchMove',  onDocumentTouchMove);
 
     setInterval(loop, 20);
   }
